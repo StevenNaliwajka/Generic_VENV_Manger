@@ -12,6 +12,8 @@ To get the latest version of this repo.
 git subtree pull --prefix=PARENTFOLDERHERE/Generic_VENV_Manger https://github.com/StevenNaliwajka/Generic_VENV_Manger.git main --squash
 ```
 
+Ensure to add 'venv' to ".ignore" file for git.
+
 ## Development Usages
 ### Create VENV:
 Duplicate "packages.example.json"
