@@ -12,3 +12,4 @@ def get_venv_example_folder() -> str:
 
 if __name__ == '__main__':
     get_venv_example_folder()
+,mm
