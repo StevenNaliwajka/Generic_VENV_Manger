@@ -30,6 +30,6 @@ If adding enviroment variables
 Duplicate "run_env_var.example.json"  
 and rename to "run_env_var.json'.  
 Usage for calling python programs in VENV is:  
-```
+```angular2html
 VENVUtil.run_with_venv("~/PATH/TO/VENV/", "~/PATH/TO/PYTHON.PY")
 ```
