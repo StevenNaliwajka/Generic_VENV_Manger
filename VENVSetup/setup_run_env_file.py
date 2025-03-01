@@ -1,8 +1,8 @@
 import os
 
-from VENVCodeBase.VENVPathing.get_venv_root import get_venv_root
-from VENVCodeBase.VENVSupport.copy_file_and_rename import copy_file_and_rename
-from VENVCodeBase.VENVPathing.get_venv_example_folder import get_venv_example_folder
+from ..VENVCodeBase.VENVPathing.get_venv_root import get_venv_root
+from ..VENVCodeBase.VENVSupport.copy_file_and_rename import copy_file_and_rename
+from ..VENVCodeBase.VENVPathing.get_venv_example_folder import get_venv_example_folder
 
 
 def setup_run_env_file(old_path, new_path):

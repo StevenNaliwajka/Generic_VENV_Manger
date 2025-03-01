@@ -1,6 +1,6 @@
 import os
 
-from VENVCodeBase.VENVPathing.get_venv_root import get_venv_root
+from ..VENVPathing.get_venv_root import get_venv_root
 
 
 def get_venv_example_folder() -> str:
