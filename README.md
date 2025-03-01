@@ -22,7 +22,7 @@ and rename to "packages.json'.
 Fill out required packages to be installed.
 Usage for setting up VENV is:  
 ```angular2html
-VENVUtil.setup_venv("~/PATH/TO/VENV")
+VENVUtil.setup_venv("~/PATH/TO/ROOT")
 ```
 
 ### Run with VENV:
@@ -31,5 +31,5 @@ Duplicate "run_env_var.example.json"
 and rename to "run_env_var.json'.  
 Usage for calling python programs in VENV is:  
 ```angular2html
-VENVUtil.run_with_venv("~/PATH/TO/VENV/", "~/PATH/TO/PYTHON.PY")
+VENVUtil.run_with_venv("~/PATH/TO/ROOT", "~/PATH/TO/PYTHON.PY")
 ```
