@@ -2,10 +2,10 @@ import os
 import subprocess
 import sys
 
-from generic_venv_manager.ensure_venv_path import ensure_venv_path
-from generic_venv_manager.get_python_executable import get_python_executable
-from generic_venv_manager.load_env_vars import load_env_vars
-from generic_venv_manager.parse_packages import parse_packages
+from VENVCodeBase.VENVReadJSON.load_env_vars import load_env_vars
+from VENVCodeBase.VENVReadJSON.parse_packages import parse_packages
+from VENVCodeBase.VENVSupport.ensure_venv_path import ensure_venv_path
+from VENVCodeBase.VENVSupport.get_python_executable import get_python_executable
 
 
 class VENVUtil:
