@@ -2,7 +2,6 @@ import os
 
 from ..VENVPathing.get_venv_root import get_venv_root
 
-
 def get_venv_example_folder() -> str:
     venv_example_folder_name = ["VENVSetup", "VENVExampleJSON"]
     venv_root = get_venv_root()
