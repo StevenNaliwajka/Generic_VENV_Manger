@@ -25,9 +25,8 @@ python3 PATH/TO/Generic_VENV_Manager/VENVSetup/setup_run_env_file.py
 ```
 
 ### 3) Final git tracking setup.
-Ensure to add 'venv' to ".gitignore" file.
+Ensure to add 'venv' to ".gitignore" file. In new proj root run:
 ```angular2html
-# In the new project root folder.
 echo venv >> .gitignore
 ```
 IF you added package install management, force tracking.
