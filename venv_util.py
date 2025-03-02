@@ -2,10 +2,10 @@ import os
 import subprocess
 import sys
 
-from VENVCodeBase.VENVReadJSON.load_env_vars import load_env_vars
-from VENVCodeBase.VENVReadJSON.parse_packages import parse_packages
-from VENVCodeBase.VENVSupport.ensure_venv_path import ensure_venv_path
-from VENVCodeBase.VENVSupport.get_python_executable import get_python_executable
+from .VENVCodeBase.VENVReadJSON.load_env_vars import load_env_vars
+from .VENVCodeBase.VENVReadJSON.parse_packages import parse_packages
+from .VENVCodeBase.VENVSupport.ensure_venv_path import ensure_venv_path
+from .VENVCodeBase.VENVSupport.get_python_executable import get_python_executable
 
 
 class VENVUtil:
