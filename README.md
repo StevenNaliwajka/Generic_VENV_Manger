@@ -37,7 +37,7 @@ SAME for IF you added the Runtime Enviroment Variable Management, force tracking
 ```angular2html
 git add -f PATH/TO/Generic_VENV_Manager/run_env_var.json
 ```
-### 2) In the future.
+### 4) In the future.
 To update to the latest version of this repo.
 ```angular2html
 git subtree pull --prefix=PATH/TO/FILE/Generic_VENV_Manger https://github.com/StevenNaliwajka/Generic_VENV_Manger.git main --squash
