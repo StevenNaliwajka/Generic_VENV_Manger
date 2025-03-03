@@ -1,7 +1,7 @@
 import json
 import os
 
-from VENVCodeBase.VENVPathing.get_venv_root import get_venv_root
+from ..VENVPathing.get_venv_root import get_venv_root
 
 
 def parse_packages():
