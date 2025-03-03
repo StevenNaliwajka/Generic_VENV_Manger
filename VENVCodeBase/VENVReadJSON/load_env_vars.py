@@ -1,14 +1,13 @@
 import json
 import os
 
+from VENVCodeBase.VENVPathing.get_venv_root import get_venv_root
+
 
 def load_env_vars():
     """Load environment variables from JSON file."""
 
-    # Get the directory of the current script.
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    # Get the parent directory.
-    parent_dir = os.path.dirname(current_dir)
+    parent_dir = get_venv_root()
     # Construct the full path to the file in the parent directory.
     config_file = os.path.join(parent_dir, "run_env_var.json")
 

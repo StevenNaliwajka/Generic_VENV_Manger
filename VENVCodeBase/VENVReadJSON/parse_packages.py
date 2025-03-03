@@ -1,13 +1,14 @@
 import json
 import os
 
+from VENVCodeBase.VENVPathing.get_venv_root import get_venv_root
+
+
 def parse_packages():
-    # Get the directory of the current script.
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    # Get the parent directory.
-    parent_dir = os.path.dirname(current_dir)
+    parent_dir = get_venv_root()
     # Construct the full path to the file in the parent directory.
     config_file = os.path.join(parent_dir, "packages.json")
+    print(config_file)
 
     try:
         with open(config_file, 'r') as f:
@@ -16,3 +17,6 @@ def parse_packages():
     except Exception as e:
         print(f"Error reading {config_file}: {e}")
         return {}
+
+if __name__ == "__main__":
+    parse_packages()
