@@ -57,7 +57,8 @@ To run programs with the VENV, call:
 VENVUtil.run_with_venv("~/PATH/TO/ROOT", "~/PATH/TO/PYTHON.PY")
 ```
 
-Any script being the 'entry point' of the VENV to the program should have before any imports:
+Any script being the 'entry point' of the VENV to the program should have before any imports:  
+IE: any program that gets called by run_with_venv should always have this codeblock.
 ```angular2html
 import sys
 from pathlib import Path
